@@ -1,0 +1,64 @@
+.fab {
+    color: black;
+    font-size: 30px;
+    text-shadow: 0 3 5 black;
+    box-shadow: 0 3 5 black;
+}
+
+.fab:hover {
+    color: blue;
+}
+
+.container-fluid {
+    align-content: center;
+    position: fixed;
+    justify-content: center;
+}
+
+.btn {
+    border-radius: 20px;
+    box-shadow: 0 3px 7px black;
+    background-color: #00ADEF;
+    border-style: none; 
+    color: white;
+}
+
+.btn:hover {
+    color: white;
+}
+
+.navbar {
+    background-color: #00ADEF;
+    
+}
+
+ul {
+    justify-content: space-between;
+    text-align: center;
+
+}
+
+.nav-link {
+    color: white;
+}
+
+body {
+    font-family: 'Oxygen', sans-serif !important;
+}
+
+.jumbotron {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url(../Project-3/Photos/Kenya\ –\ Winners\ Self\ Help\ \ \ Ball\ To\ All.png);
+    background-size: 100%;
+    text-align: center;
+    color: white;
+    height: 450px;
+}
+
+#content {
+    margin-top: 200px;
+}
+
+.img-fluid {
+    margin-left: 185px;
+}
+
