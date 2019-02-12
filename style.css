@@ -1,8 +1,6 @@
 .fab {
-    color: black;
+    color: white;
     font-size: 30px;
-    text-shadow: 0 3 5 black;
-    box-shadow: 0 3 5 black;
 }
 
 .fab:hover {
@@ -78,7 +76,35 @@ body {
     width: 60%;
 }
 
+#text {
+    width: 50%;
+}
+
 h3 {
-    font-weight: 200;
+    font-weight: 700;
     color: #006F9A;
+}
+
+h5 {
+    margin-bottom: 40px;
+}
+
+#footer {
+    background-color: #00ADEF;
+    text-align: center;
+}
+
+#donate {
+    background-color: white;
+    color: #00ADEF;
+    box-shadow: 0 3px 7px black;
+}
+
+#foottext {
+    color: white;
+    font-weight: 100;
+}
+
+html .page {
+    overflow: visible;
 }
