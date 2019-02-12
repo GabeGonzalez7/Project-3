@@ -108,3 +108,8 @@ h5 {
 html .page {
     overflow: visible;
 }
+
+hr {
+    color: white;
+    width: 30%;
+}
