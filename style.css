@@ -1,6 +1,8 @@
 .fab {
     color: white;
     font-size: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .fab:hover {
@@ -11,6 +13,8 @@
     align-content: center;
     position: fixed;
     justify-content: center;
+    overflow-y: scroll;
+    max-height: 100%;
 }
 
 .btn {
@@ -38,6 +42,7 @@ ul {
 
 .nav-link {
     color: white;
+    font-size: 20px;
 }
 
 body {
@@ -63,13 +68,10 @@ body {
 .cta {
     margin-left: 600px;
     box-shadow: none;
+    
 }
 
-.navbar-nav {
-    text-align: center;
-    
-    float: none;
-}
+
 
 .container {
     text-align: center;
@@ -87,11 +89,13 @@ h3 {
 
 h5 {
     margin-bottom: 40px;
+    text-align: left;
 }
 
 #footer {
     background-color: #00ADEF;
     text-align: center;
+    width: 1000px;
 }
 
 #donate {
@@ -103,13 +107,40 @@ h5 {
 #foottext {
     color: white;
     font-weight: 100;
+    padding-top: 20px;
 }
 
-html .page {
-    overflow: visible;
-}
+
 
 hr {
     color: white;
     width: 30%;
+    background-color: white;
+}
+
+p {
+    color: white;
+}
+
+
+.navbar {
+    text-align: center;
+}
+
+.sticky-top {
+    background-color: white;
+}
+
+#bodytext {
+    margin-bottom: 20px;
+}
+
+#copyright {
+    padding-top: 20px;
+}
+
+.navbar-nav {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
 }
