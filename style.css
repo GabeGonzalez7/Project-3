@@ -88,14 +88,14 @@ h3 {
 }
 
 h5 {
-    margin-bottom: 40px;
+    padding-bottom: 40px;
     text-align: left;
 }
 
 #footer {
     background-color: #00ADEF;
     text-align: center;
-    width: 1000px;
+    width: 2000px;
 }
 
 #donate {
